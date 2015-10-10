@@ -1,11 +1,10 @@
 require "amatista"
 require "option_parser"
-require "./my_web_site/*"
+require "./my_web_site/**"
 
 class MainController < Amatista::Controller
   get "/" do
-    html = "Hola Mundo"
-    respond_to(:html, html)
+    respond_to(:html, IndexView.new.to_s)
   end
 end
 
