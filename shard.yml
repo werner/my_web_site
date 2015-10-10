@@ -1,0 +1,11 @@
+name: my_web_site
+version: 0.1.0
+
+dependencies:
+  amatista:
+    github: werner/amatista
+
+authors:
+  - Werner <werner_a_e@yahoo.es>
+
+license: MIT

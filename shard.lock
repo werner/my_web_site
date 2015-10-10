@@ -1,0 +1,10 @@
+version: 1.0
+shards:
+  amatista:
+    github: werner/amatista
+    version: 0.4.1
+
+  mime:
+    github: spalger/crystal-mime
+    version: HEAD
+
