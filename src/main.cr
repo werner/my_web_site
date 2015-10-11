@@ -11,9 +11,11 @@ end
 class Main < Amatista::Base
   configure do |conf|
     conf[:logs] = true
+    conf[:public_dir] = "public"
   end
 end
 
 app = Main.new
 
+p "Server running on 3000"
 app.run 3000
